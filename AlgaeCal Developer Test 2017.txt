@@ -1,0 +1,51 @@
+AlgaeCal Developer Test 2017 
+
+Part 1 
+
+Languages: HTML5,SCSS,Javascript
+
+Estimated time: 4 hours 
+
+Instructions 
+* Please create the following design for mobile and responsive towards desktop using bootstrap 3 or 4.
+* Algaecal Mobile Design JPEG:
+https://drive.google.com/file/d/0B2VLxSbXb1shQ2pSQmN2MVZwWDQ/view?usp=sharing 
+* AlgaeCal Mobile Design PSD: 
+https://drive.google.com/file/d/0B2VLxSbXb1shZXZvQ1BCazEyOGM/view?usp=sharing 
+* We have not provided a desktop design, so please use your best judgement for a responsive implementation
+* Use semantic Html5 and SCSS coding best practices for clean, easily understood code and SEO best practices.
+* Create a gulp watcher (create a gulpfile) for sass compiling
+* Create a git repository using github or bitbucket to share your project with us. Use descriptive commit messages.
+
+From header to footer: 
+* ”Tap to talk 1-800-820-0184” should trigger a phone call. 
+* Use the rest api at https://www.algaecal.com/wp-json/acf/v2/options to get the company phone number (default_phone_number) and to show the message ‘Speak to Our Bone Specialist’ if and only if the current time is within working hours.
+* Wistia Video embed code:
+<script src="//fast.wistia.com/embed/medias/cecdwaq3dz.jsonp" async></script>
+        <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+        <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_cecdwaq3dz videoFoam=true " style="height:100%;width:100%">&nbsp;</div></div></div>
+
+* Make the three package pricing bundle boxes hidden until the video hits the 2:13 second marker. If the user skips around in the video, going past 2:13, it should reveal the packages as well.
+- “Add to Cart” links to our product page link: https://www.algaecal.com/product/bone-builder-packs/ 
+- The supplement facts tables should be html tables and not images.
+- The link in the guarantee should trigger a bootstrap modal popup with the content from the 7 year guarantee long form found here: https://www.algaecal.com/wp-json/acf/v2/options 
+- Ignore the “view full references link”
+- “Buy now” button should link back to bundles
+- Ignore the footer links (link to ‘#’)
+
+Part 2
+
+Language: Wordpress
+
+Estimated time: 10 minutes 
+
+Project: How would you include the external script for the last version of jQuery in WordPress? (Take it from any public cdn, do not use the version included with core). Show the actual code you would use.
+
+Instructions: 
+Include your answer in your project for part one, in the root as the file “{your_name}_wordpress_script.php”
+
+When you have completed your project, please send a link to your git repository to: Steve@algaecal.com, Paula@algaecal.com and Kyle@algaecal.com 
+
+
+
+

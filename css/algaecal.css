@@ -1,0 +1,70 @@
+@import url("http://fonts.googleapis.com/css?family=Maven+Pro");
+
+.date_Button {
+    height: 48px;
+    width: 150px;
+    font: bold 16px/48px arial;
+    margin: 20px 20px 20px 20px;
+    position: relative;
+}
+
+p {
+    /* styling for the left part */
+
+    padding-top: 10px;
+    width: 100px;
+    height:40px;
+    text-align: center;
+
+    /* border radius */
+
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+
+    /* backgorund */
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#c6c6c6));
+    background: -moz-linear-gradient(#fbfbfb, #c6c6c6);
+    background-color: #ccc;
+
+    /* shadows and highlights */
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(255, 255, 255, 0.8) inset;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(255, 255, 255, 0.8) inset;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(255, 255, 255, 0.8) inset;
+}
+table{
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    background: #dbdfe5;
+}
+p img{
+    padding: 30px;
+    text-align: center;
+    background: #dbdfe5;
+    vertical-align:-webkit-baseline-middle;
+
+}
+.container-pic {
+
+    vertical-align:-webkit-baseline-middle;
+
+}
+.container-fish {
+    vertical-align:-webkit-baseline-middle;
+
+}
+#fishoil {
+    
+    vertical-align:-webkit-baseline-middle;
+
+}
+#navbutton {
+    padding: 8px 8px 8px 32px;
+    background-image: url(images/AC10.jpg);
+    background-position:center;
+    float: right;
+}​
+
+
