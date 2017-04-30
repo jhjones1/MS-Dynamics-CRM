@@ -1,147 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-          <meta charset="utf-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  
-  <title>Bootstrap 101 Template</title>
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-          <style type="text/css">
-    p{
-        padding: 20px;
-        font-size: 32px;
-        font-weight: bold;
-        text-align: center;
-        background: #dbdfe5;
-    }
-    p img{
-        padding: 30px;
-        text-align: center;
-        background: #dbdfe5;
-        vertical-align:-webkit-baseline-middle;*/
 
-    }
-    .container-pic {
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Begin SEOPressor Code -->
+    <meta property="og:title" content="AlgaeCal 2017 Website">
+    <meta property="og:site_name" content="AlgaeCal Website">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="An intital test of skill for potential employment with AlgaeCal.">
+    <meta name="description" content="AlgaeCal Calcium Supplement Builds Stonger Bones" />
+    <link rel="canonical" href="https://www.algaecal.com" />
 
-        vertical-align:-webkit-baseline-middle;
+    <!-- Schema.Org -->
+    <script type="application/ld+json">
+        {
+            "@context": "http:\/\/schema.org",
+            "@type": "Organization",
+            "url": "https:\/\/www.algaecal.com",
+            "name": "AlgaeCal"
+        }
+    </script>
+    <!-- End SEOPressor Code -->
 
-    }
-    .container-fish{
-        vertical-align:-webkit-baseline-middle;
+    <title>AlgaeCal Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style rel="stylesheet" href="src/css/algaecal.css" type="text/css"></style>
+    <style rel="stylesheet" href="src/css/navbar.less" type="text/less"></style>
+    <script src="src/js/phoneCall.js"></script>
+    <script src="src/js/videoTag.js"></script>
+    <script src="src/js/gulpfile.js"></script>
 
-    }
-    #fishoil{
-        background: #dbdfe5;
-        vertical-align:-webkit-baseline-middle;
-
-    }
-</style>
 
 </head>
+
 <body>
-<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-<div id="navigation">
-    <div class="container">
-        <div class="navbar-header">
-          <!--  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button> -->
-            <a class="navbar-brand" href=" https://www.algaecal.com">AlgaeCal Developer Test 2017</a>
-        </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-           <ul class="nav navbar-nav">
-                <li class="active"><a href="https://www.algaecal.com" target="_blank">Home</a></li>
-                <li><a href="https://www.algaecal.com" target="_blank">About</a></li>
-                <li><a href="https://www.algaecal.com" target="_blank">Contact</a></li>
+    <div>
+        <!--HEADER SECTION - Contains navigation menu with 3 menu items and one submit bi\utton that initiates a phone call to 
+      1-800-8200184
+ Brand and toggle get grouped for better mobile display -->
+        <nav id="myNavbar" class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse" role="navigation">
+
+            <div class="container-fluid">
+                <div class="navbar-header" style="background-color:Aqua">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="icon-bar sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                            <a class="navbar-brand" href="files\AlgaeCal Developer Test 2017.txt" >
+                                AlgaeCal Developer Test 2017<br></br> John H. Jones II</a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="mailto:wolvescomein@gmail.com">Email Me!</a></li>
+                <li class="dropdown" style="margin:auto">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">AlgaeCal.com</a></li>
+                    </ul>
+                </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <!--class=""-->
+                <span class="pull-right"> 
+                            <button type="button"  class="navbar-toggler navbar-toggler-right call_button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation"  onclick="getPhone()" id = "results" alt="Tap to Talk 1-800-820-0184">                        <span class="img-responsive"><img src="images/AC0.jpg"/></span>
+                </button>
+                </span>
+            </form>
+
+        </nav>
+    </div>
+    <!--JUMBOTRON SECTION - -->
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Did You Ever Dream You Would CRAVE Your Fish Oil?</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 col-md-4 col-lg-3" id="fishOil">
+                        <p><img class="img-responsive" src="images/AC10.jpg" alt="Fish Oil Pills" /></p>
+                    </div>
+                    <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-5">
+                        <p width="600" height="200">Triple Power Omega 3 Fish Oil is guaranteed to be the best tasting fish oil on the planet. Imagine ZERO fish taste - just the all natural organic mango smoothie flavor that literally makes you & your kids ask for more!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                    <h2>Triple Support</h2>
+                    <p>From superior quality natural triglyceride fish oil plus Curcumin and Astaxanthin provides three anti-inflammatory ingredients instead of one.</p>
+                </div>
+                <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                    <h2>Triple Strength</h2>
+                    <p> Delivers 750mg of EPA and 450mg of DHA, plus 280mg of other healthy omega 3s.</p>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                    <h2>Triple Absorption</h2>
+                    <p>Emulsified oil is 300% better absorbed than standard fish oils, and doesn't cause disgusting fish burps!</p>
+                </div>
+            </div>
         </div>
     </div>
- </div>
-</nav>
-<div class="container">
-    <div class="jumbotron">
-        <h1>Did You Ever Dream You Would CRAVE Your Fish Oil?</h1>
-         <div class="container-fish">
-           <div class="row">
-                <div class="col-sm-5 col-md-4 col-lg-3" id="fishOil">
-                <p><img  src="images/AC10.jpg" alt="Fish Oil Pills" /></p>
-                </div>
-                 <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-5">
-                   <p  width="600" height="200">Triple Power Omega 3 Fish Oil is guaranteed to be the best tasting fish oil on the planet. Imagine ZERO fish taste - just the all natural organic mango smoothie flavor that literally makes you & your kids ask for more!</p>
-                </div>
-          </div> 
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                <p><img class="img-responsive" src="images/AC1.jpg" alt="AlgaeCal"></p>
+            </div>
+
+            <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                <p><img class="img-responsive" src="images/AC2.jpg" alt="AlgaeCal"></p>
+            </div>
+
+            <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                <p><img class="img-responsive" src="images/AC3.jpg" alt="AlgaeCal"></p>
+            </div>
         </div>
-              <div class="row">
-                    <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                        <h2>Triple Support</h2>
-                        <p>From superior quality natural triglyceride fish oil plus Curcumin and Astaxanthin provides three anti-inflammatory ingredients instead of one.</p>
-                    </div>
-                    <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <h2>Triple Strength</h2>
-                      <p> Delivers 750mg of EPA and 450mg of DHA, plus 280mg of other healthy omega 3s.</p>
-                    </div>
-                    <div class="clearfix visible-sm-block"></div>
-                    <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <h2>Triple Absorption</h2>
-                      <p>Emulsified oil is 300% better absorbed than standard fish oils, and doesn't cause disgusting fish burps!</p>
-                    </div>
-                </div>
-              </div>
-  </div>
-</div>
-  <div class="container-pic">
-    <div class="row">
-          <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <p><img src="images/AC1.jpg" alt="AlgaeCal"></p>
-          </div>
-          
-          <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <p><img src="images/AC2.jpg" alt="AlgaeCal" ></p>
-          </div>
 
-          <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <p><img src="images/AC3.jpg" alt="AlgaeCal" ></p>
-          </div>
-     </div>  
+        <div class="row">
+            <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                <p><img class="img-responsive" src="images/AC4.jpg" alt="AlgaeCal"></p>
+            </div>
 
-      <div class="row">
-          <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <p><img src="images/AC4.jpg" alt="AlgaeCal" ></p>
-          </div>
-          
-          <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <p><img src="images/AC5.jpg" alt="AlgaeCal" ></p>
-          </div>
+            <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                <p><img class="img-responsive" src="images/AC5.jpg" alt="AlgaeCal"></p>
+            </div>
 
-          <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <p><img src="images/AC6.jpg" alt="AlgaeCal" ></p>
-          </div>
-        </div>  
+            <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                <p><img class="img-responsive" src="images/AC6.jpg" alt="AlgaeCal"></p>
+            </div>
+        </div>
 
-      <div class="row">
-          <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <p><img src="images/AC7.jpg" alt="AlgaeCal" ></p>
-          </div>
-            
-          <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <p><img src="images/AC8.jpg" alt="AlgaeCal"></p>
-          </div>
+        <div class="row">
+            <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                <p><img class="img-responsive" src="images/AC7.jpg" alt="AlgaeCal"></p>
+            </div>
 
-          <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
-                      <p><img src="images/AC9.jpg" alt="AlgaeCal" ></p>
-          </div>
-        </div> 
-         
+            <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                <p><img class="img-responsive" src="images/AC8.jpg" alt="AlgaeCal"></p>
+            </div>
+
+            <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-1">
+                <p><img class="img-responsive" src="images/AC9.jpg" alt="AlgaeCal"></p>
+            </div>
+        </div>
+
     </div>
     <hr>
     <div class="row">
@@ -151,6 +183,16 @@
             </footer>
         </div>
     </div>
-</div>
+    </div>
+
+
+    <script src="https://fast.wistia.com/embed/medias/cecdwaq3dz.jsonp" async></script>
+    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+            <div class="wistia_embed wistia_async_cecdwaq3dz videoFoam=true " style="height:100%;width:100%">&nbsp;</div>
+        </div>
+    </div>
 </body>
+
 </html>
