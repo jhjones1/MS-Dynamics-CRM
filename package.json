@@ -1,15 +1,36 @@
 {
-  "name": "algaecal",
-  "version": "1.0.0",
-  "description": "Bootstrap Project for AlgeaCal",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: No test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "C:\\Users\\johnh\\Documents\\GitHub\\Responsive-AlgeaCal-Site\\.git"
-  },
-  "author": "John H. JonesII",
-  "license": "ISC"
+    "name": "algaecal",
+    "version": "1.0.0",
+    "private": "true",
+    "description": "Bootstrap Project for AlgeaCal",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: No test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "C:\\Users\\johnh\\Documents\\GitHub\\Responsive-AlgeaCal-Site\\.git"
+    },
+    "author": "John H. JonesII",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^3.19.0",
+        "gulp": "^3.9.1",
+        "gulp-about": "^1.1.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-jshint": "^2.0.4",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "^2.1.2",
+        "jshint": "^2.9.4"
+    },
+    "dependencies": {
+        "gulp": "^3.9.1"
+    },
+    "keywords": [
+        "John",
+        "H.",
+        "Jones",
+        "II"
+    ]
 }
